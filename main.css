@@ -1,0 +1,52 @@
+body {
+    background-image: url("images/green-wallpaper.jpg");
+}
+
+.container {
+   margin: 10% 0 0 0;
+}
+
+.centre {
+    padding: 30px 0 0 0;
+    display: inline;
+    width: 35%;
+
+}
+
+.left {
+    display: inline;
+    width: 25%;
+    float: left;
+}
+
+.right {
+    display: inline;
+    width: 25%;
+    float: right;
+}
+
+.deal {
+    padding: 5px;
+    align:centre;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+.deal:hover {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+    background-color: grey;
+    color: white;
+}
+
+#bottom {
+    padding-left: 18%;
+    width: 100% ; 
+    vertical-align: bottom;
+}
+
