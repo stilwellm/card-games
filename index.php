@@ -10,9 +10,13 @@
 
 <?php
 
+//Set up suits and faces
+
 $suits = array ("hearts", "spades", "clubs", "diamonds");
 $faces = array ("2", "3", "4", "5", "6", "7", "8", "9", "10", "ace", "jack", "queen", "king");
 
+
+//Build a deck array with suits and faces
 $deck = array();
 
 foreach ($suits as $suit) {
@@ -23,6 +27,7 @@ foreach ($suits as $suit) {
 
 shuffle ($deck);
 
+//Pull cards from the deck and create a sting so that we can display the corresponding card image on screen
 for ($i=0; $i<3; $i++){
     $card = array_shift($deck);
     $cardString = $card["face"] . "_of_" . $card["suit"] . ".png";
